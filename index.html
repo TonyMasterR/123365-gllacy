@@ -5,18 +5,24 @@
     <title>HTML Academy: Глейси</title>
   </head>
   <body>
-  	<header class = "page-header">
+  	<header class="page-header">
   		<div class="container">
 
   			<div class="header-top">
-	  			<a class="header-top__logo">
-	  				<img src="http://placehold.it/160x65" alt="logo" >
+	  			<a class="header-top__link-logo">
+	  				<img class="header-top__img" src="http://placehold.it/160x65" alt="logo" >
 	  			</a>
 	  			<nav class="main-nav">
-	  				<ul>
-	  					<li><a href = "#">Каталог</a></li>
-	  					<li><a href = "#">Доставка и оплата</a></li>
-	  					<li><a href = "#">О Компании</a></li>
+	  				<ul class="main-nav__list">
+	  					<li class="main-nav__item">
+	  						<a class="main-nav__link" href="#">Каталог</a>
+	  					</li>
+	  					<li class="main-nav__item">
+	  						<a class="main-nav__link" href="#">Доставка и оплата</a>
+	  					</li>
+	  					<li class="main-nav__item">
+	  						<a class="main-nav__link" href="#">О Компании</a>
+	  					</li>
 	  				</ul>
 	  			</nav>
 
@@ -34,7 +40,7 @@
           </div>
 	  			<div class="slider">
             <div class="promo">
-              <a href = "#" class = "slider__head">Крем-брюле и пломбир с малиновым джемом</a>
+              <a href="#" class="slider__head">Крем-брюле и пломбир с малиновым джемом</a>
             </div>
 	  				<a href="#" class="btn order-btn">Давайте оба!</a>
 	  				<div class="dots">
@@ -56,12 +62,12 @@
   			<section class="action__item">
   				<h2>Малинка даром!</h2>
   				<p>При покупке 2 кг любого фркутового мороженного, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-  				<a href = "#">Хочу варенье!</a>
+  				<a href="#">Хочу варенье!</a>
   			</section>
   			<section class="action__item">
   				<h2>Шоколадки даром!</h2>
   				<p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-  				<a href = "#">Хочу шоколадки!</a>
+  				<a href="#">Хочу шоколадки!</a>
   			</section>
   		</aside>
 
@@ -123,7 +129,7 @@
           <span>10 способов сервировки фруктовых щербетов к столу</span>
         </div>
   			<div class="news-subscribtion">
-  				<p class = "news-subscribtion__conditions">Подпишитесь на нашу сладкую рассылку и будете в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+  				<p class="news-subscribtion__conditions">Подпишитесь на нашу сладкую рассылку и будете в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
   				<form action="">
             <input type="email" placeholder = "Электронная почта">
             <button type="submit">Отправить</button>
@@ -155,34 +161,42 @@
   		</div>
   		<div class="socials">
   			<ul class="socials-list">
-          <li class="social__item">
-            <a href="#">Twitter</a>
+          <li class="socials__item">
+            <a class="socials__link" href="#">Twitter</a>
           </li>
-          <li class="social__item">
-            <a href="#">Instagram</a>
+          <li class="socials__item">
+            <a class="socials__link" href="#">Instagram</a>
           </li>
-          <li class="social__item">
-            <a href="#">Facebook</a>
+          <li class="socials__item">
+            <a class="socials__link" href="#">Facebook</a>
           </li>
-          <li class="social__item">
-            <a href="#">Vkontakte</a>
+          <li class="socials__item">
+            <a class="socials__link" href="#">Vkontakte</a>
           </li>
   			</ul>
   			<div class="docs">
-  				<ul class="docs-list">
-  					<li><a>Для поставщиков</a></li>
-  					<li><a href="#">Наши документы</a></li>
-  					<li><a href="#">О производстве</a></li>
-  					<li><a href="#">Экологические стандарты</a></li>
+  				<ul class="docs__list">
+  					<li class="docs__item">
+  						<a class="docs__link">Для поставщиков</a>
+  					</li>
+  					<li class="docs__item">
+  						<a class="docs__link" href="#">Наши документы</a>
+  					</li>
+  					<li class="docs__item">
+  						<a class="docs__link" href="#">О производстве</a>
+  					</li>
+  					<li class="docs__item">
+  						<a class="docs__link" href="#">Экологические стандарты</a>
+  					</li>
   				</ul>
   			</div>
   			<div class="copyrights">
-  				<div class="academy-logo">
-  					<a href="https://htmlacademy.ru/">
-  						<img src="http://placehold.it/60x30" alt="logo">
+  				<div class="copyrights__academy-logo">
+  					<a class="copyrights__link" href="https://htmlacademy.ru/">
+  						<img class="copyrights__img"src="http://placehold.it/60x30" alt="logo">
   					</a>
   				</div>
-  				<span>Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> &copy 2016</span>
+  				<span class="copyrights__signature">Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> &copy 2016</span>
   			</div>
   		</div>
   	</footer>

@@ -5,10 +5,12 @@
     <title>HTML Academy: Глейси</title>
   </head>
   <body>
-  	<header class="page-header">
-  		<div class="container">
 
-  			<div class="header-top">
+
+  	<header class="page-header">
+  		<aside class="container">
+
+  			<aside class="header-top">
 	  			<a class="header-top__link-logo">
 	  				<img class="header-top__img-logo" src="http://placehold.it/160x65" alt="logo">
 	  			</a>
@@ -26,48 +28,49 @@
 	  				</ul>
 	  			</nav>
 
-	  			<div class="user-block">
+	  			<section class="user-block">
 	  				<div class="user-block__search"><a class="user-block__link" href="#"></a></div>
 	  				<div class="user-block__login"><a class="user-block__link" href="#">Вход</a></div>
 	  				<div class="user-block__basket"><a class="user-block__link" href="#">Пусто</a></div>
-	  			</div>
-	  		</div>
+	  			</section>
+	  		</aside>
 
-	  		<div class="header-bottom">
+	  		<aside class="header-bottom">
           <div class="operating-time">
             <span>С 10 до 20, ежедневно</span>
             <span>8 812 450-25-25</span>
           </div>
-	  			<div class="slider">
-            <div class="slider-promo">
-              <a href="#" class="slider-promo__link-head">Крем-брюле и пломбир с малиновым джемом</a>
+	  			<aside class="slider">
+            <div class="slider__promo">
+              <a href="#" class="slider__link-head">Крем-брюле и пломбир с малиновым джемом</a>
             </div>
 	  				<a href="#" class="btn order-btn">Давайте оба!</a>
-	  				<div class="slider-dots">
+	  				<div class="slider__dots">
 	  					<form action="#">
-	  						<input class="slider-dots__dot" type="radio" name="dot" value="slide1" checked>
-	  						<input class="slider-dots__dot" type="radio" name="dot" value="slide2">
-	  						<input class="slider-dots__dot" type="radio" name="dot" value="slide3">
+	  						<input class="slider__dot" type="radio" name="dot" value="slide1" checked>
+	  						<input class="slider__dot" type="radio" name="dot" value="slide2">
+	  						<input class="slider__dot" type="radio" name="dot" value="slide3">
 	  					</form>
 	  				</div>
-	  			</div>
-	  		</div>
+	  			</aside>
+	  		</aside>
 
-  		</div>
+  		</aside>
   	</header>
+
 
   	<main class="container">
 
   		<aside class="actions">
   			<section class="actions__section">
-  				<h2>Малинка даром!</h2>
-  				<p>При покупке 2 кг любого фркутового мороженного, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-  				<a class="actions__link" href="#">Хочу варенье!</a>
+  				<h2 class="actions__head">Малинка даром!</h2>
+  				<p class="actions__info">При покупке 2 кг любого фркутового мороженного, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+  				<a class="btn order-btn" href="#">Хочу варенье!</a>
   			</section>
   			<section class="actions__section">
-  				<h2>Шоколадки даром!</h2>
-  				<p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-  				<a class="actions__link" href="#">Хочу шоколадки!</a>
+  				<h2 class="actions__head">Шоколадки даром!</h2>
+  				<p class="actions__info">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+  				<a class="btn order-btn" href="#">Хочу шоколадки!</a>
   			</section>
   		</aside>
 
@@ -123,23 +126,25 @@
 	  		</section>
   		</aside>
 
-  		<div class="news">
-  			<div class="news-blog">
+  		<section class="news">
+  			<div class="news__blog">
           <span>Новое в нашем блоге</span>
           <span>10 способов сервировки фруктовых щербетов к столу</span>
         </div>
-  			<div class="news-subscribtion">
-  				<p class="news-subscribtion__conditions">Подпишитесь на нашу сладкую рассылку и будете в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+  			<div class="news__subscribtion">
+  				<p class="news__conditions">Подпишитесь на нашу сладкую рассылку и будете в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
   				<form action="">
             <input type="email" placeholder = "Электронная почта">
-            <button type="submit">Отправить</button>
+            <button class="btn order-btn" type="submit">Отправить</button>
           </form>
   			</div>
-  		</div>
+  		</section>
   	</main>
 
+
   	<footer class="page-footer">
-  		<div class="page-footer__maps">
+
+  		<aside class="page-footer__maps">
   			<div class="page-footer__feedback">
           <p>
             Адрес главного офиса и<br>
@@ -158,9 +163,11 @@
           </p>
             <button class="btn order-btn">Форма обратной связи</button>
         </div>
-  		</div>
-  		<div class="socials">
-  			<ul class="socials-list">
+      </aside>
+
+
+  		<aside class="socials">
+  			<ul class="socials__list">
           <li class="socials__item">
             <a class="socials__link" href="#">Twitter</a>
           </li>
@@ -174,7 +181,8 @@
             <a class="socials__link" href="#">Vkontakte</a>
           </li>
   			</ul>
-  			<div class="docs">
+
+  			<section class="docs">
   				<ul class="docs__list">
   					<li class="docs__item">
   						<a class="docs__link">Для поставщиков</a>
@@ -189,17 +197,19 @@
   						<a class="docs__link" href="#">Экологические стандарты</a>
   					</li>
   				</ul>
-  			</div>
-  			<div class="copyrights">
+  			</section>
+
+  			<section class="copyrights">
   				<div class="copyrights__logo">
   					<a class="copyrights__link" href="https://htmlacademy.ru/">
   						<img class="copyrights__img"src="http://placehold.it/60x30" alt="logo">
   					</a>
   				</div>
-  				<span class="copyrights__signature">Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> &copy 2016</span>
-  			</div>
-  		</div>
+  				<span class="copyrights__sign">Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> &copy 2016</span>
+  			</section>
+  		</aside>
   	</footer>
+
 
   </body>
 </html>

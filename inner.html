@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Глейси</title>
+</head>
+<body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+  <header class="page-header">
+    <a class="page-header__link-logo" href="#">
+      <img class="page-header__img-logo" src="http://placehold.it/160x65" alt="logo">
+    </a>
+     <nav class="main-nav">
+       <ul class="main-nav__list">
+         <li class="main-nav__item">
+           <a class="main-nav__link main-nav__link_active" href="#">Каталог</a>
+         </li>
+         <li class="main-nav__item">
+           <a class="main-nav__link" href="#">Доставка и оплата</a>
+         </li>
+         <li class="main-nav__item">
+           <a class="main-nav__link" href="#">О Компании</a>
+         </li>
+       </ul>
+     </nav>
 
-  </body>
+     <section class="user-block">
+       <div class="user-block__search">
+         <a class="user-block__link" href="#"></a>
+       </div>
+       <div class="user-block__login">
+         <a class="user-block__link" href="#">Вход</a>
+       </div>
+       <div class="user-block__basket">
+         <a class="user-block__link" href="#">2 товара</a>
+       </div>
+     </section>
+
+     <div class="operating-time">
+       <p>
+       С 10 до 20, ежедневно<br>
+       <b>8 812 450-25-25</b>
+       </p>
+     </div>
+  </header>
+
+  <main class="container">
+
+    <div class="breadcrumbs">
+      <ul class="breadcrumbs__list">
+        <li class="breadcrumbs__item">
+          <a href="#" class="breadcrumbs__link">Главная</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a href="#" class="breadcrumbs__link">Каталог</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link breadcrumbs__link_current">Сливочное</a>
+        </li>
+      </ul>
+    </div>
+    <form action="" class="filter">
+      <h2>Сливочное мороженное</h2>
+      <fieldset class="filter__sort">
+        <legend>Сортировка</legend>
+        <select name="" id="" class="filter__select">
+          <option value="" class="filter__option"></option>
+          <option value="" class="filter__option"></option>
+          <option value="" class="filter__option"></option>
+          <option value="" class="filter__option"></option></select>
+      </fieldset>
+      <fieldset class="filter__price">
+        <legend>Цена: 100 руб. - 500 руб.</legend>
+        <div class="filter_left-switch"></div>
+        <div class="filter__right-switch"></div>
+      </fieldset>
+      <fieldset class="filter__fat">
+        <legend>Жирность:</legend>
+        <input type="radio" class="filter__radio" name="fat" value="1">
+        <span class="filter__label"></span>
+        <input type="radio" class="filter__radio" name="fat" value="2">
+        <span class="filter__label"></span>
+        <input type="radio" class="filter__radio" name="fat" value="3">
+        <span class="filter__label"></span>
+        <input type="radio" class="filter__radio" name="fat" value="4">
+        <span class="filter__label"></span>
+      </fieldset>
+      <fieldset class="filter__contains">
+        <legend>Наполнители:</legend>
+        <input type="checkbox" class="filter__checkbox" name="contains">
+        <span class="filter__label"></span>
+        <input type="checkbox" class="filter__checkbox" name="contains">
+        <span class="filter__label"></span>
+        <input type="checkbox" class="filter__checkbox" name="contains">
+        <span class="filter__label"></span>
+        <input type="checkbox" class="filter__checkbox" name="contains">
+        <span class="filter__label"></span>
+        <button class="filter__submit" type="submit">Применить</button>
+      </fieldset>
+    </form>
+  </main>
+</body>
 </html>

@@ -8,7 +8,7 @@
 
 
   	<header class="page-header">
-  		<aside class="container">
+  		<section class="container">
 
 				<a class="page-header__link-logo">
 					<img class="page-header__img-logo" src="http://placehold.it/160x65" alt="logo">
@@ -27,17 +27,17 @@
 					</ul>
 				</nav>
 
-				<section class="user-block">
-					<div class="user-block__search"><a class="user-block__link" href="#"></a></div>
+				<div class="user-block">
+					<div class="user-block__search"><a class="user-block__link" href="#">search</a></div>
 					<div class="user-block__login"><a class="user-block__link" href="#">Вход</a></div>
 					<div class="user-block__basket"><a class="user-block__link" href="#">Пусто</a></div>
-				</section>
+				</div>
 
 		    <div class="operating-time">
-		      <span>С 10 до 20, ежедневно</span>
-		      <span>8 812 450-25-25</span>
+		      <div>С 10 до 20, ежедневно</div>
+		      <div>8 812 450-25-25</div>
 		    </div>
-				<aside class="slider">
+				<div class="slider">
 		      <div class="slider__promo">
 		        <a href="#" class="slider__link-head">Крем-брюле и пломбир с малиновым джемом</a>
 		      </div>
@@ -49,9 +49,9 @@
 							<input class="slider__dot" type="radio" name="dot" value="slide3">
 						</form>
 					</div>
-				</aside>
+				</div>
 
-  		</aside>
+  		</section>
   	</header>
 
 
@@ -70,41 +70,43 @@
   			</section>
   		</article>
 
-  		<aside class="sweets-catalog">
-  			<section class="sweets-catalog__section">
-  				<a class="sweets-catalog__link sweets-catalog__link_hit" href="#">
-  					<img class="sweets-catalog__img" src="http://placehold.it/250x250" title = "ice-cream" alt="ice-cream">
-  				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
-  				</a>
-          <button class="btn order-btn btn_hidden">Быстрый просмотр</button>
-  			</section>
+  		<section class="sweets-catalog">
+        <ul class="sweets-catalog__list">
+    			<li class="sweets-catalog__section">
+    				<a class="sweets-catalog__link sweets-catalog__link_hit" href="#">
+    					<img class="sweets-catalog__img" src="http://placehold.it/250x250" title = "ice-cream" alt="ice-cream">
+    				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+    				</a>
+            <button class="btn order-btn btn_hidden">Быстрый просмотр</button>
+    			</li>
 
-  			<section class="sweets-catalog__section">
-  				<a class="sweets-catalog__link sweets-catalog__link_hit"href="#">
-  					<img class="sweets-catalog__img" src="http://placehold.it/250x250" title = "ice-cream" alt="ice-cream">
-  				<p>Сливочное-кофейное с кусочками шоколада</p>
-  				</a>
-          <button class="btn order-btn btn_hidden">Быстрый просмотр</button>
-  			</section>
+    			<li class="sweets-catalog__section">
+    				<a class="sweets-catalog__link sweets-catalog__link_hit"href="#">
+    					<img class="sweets-catalog__img" src="http://placehold.it/250x250" title = "ice-cream" alt="ice-cream">
+    				<p>Сливочное-кофейное с кусочками шоколада</p>
+    				</a>
+            <button class="btn order-btn btn_hidden">Быстрый просмотр</button>
+    			</li>
 
-  			<section class="sweets-catalog__section">
-  				<a class="sweets-catalog__link sweets-catalog__link_hit"href="#">
-  					<img class="sweets-catalog__img" src="http://placehold.it/250x250" title = "ice-cream" alt="ice-cream">
-  				<p>Сливочное-клубничное с присыпкой из белого шоколада</p>
-  				</a>
-          <button class="btn order-btn btn_hidden">Быстрый просмотр</button>
-  			</section>
+    			<li class="sweets-catalog__section">
+    				<a class="sweets-catalog__link sweets-catalog__link_hit"href="#">
+    					<img class="sweets-catalog__img" src="http://placehold.it/250x250" title = "ice-cream" alt="ice-cream">
+    				<p>Сливочное-клубничное с присыпкой из белого шоколада</p>
+    				</a>
+            <button class="btn order-btn btn_hidden">Быстрый просмотр</button>
+    			</li>
 
-  			<section class="sweets-catalog__section">
-  				<a class="sweets-catalog__link sweets-catalog__link_hit"href="#">
-  					<img class="sweets-catalog__img" src="http://placehold.it/250x250" title = "ice-cream" alt="ice-cream">
-  				<p>Сливочное крем-брюле с карамельной подливкой</p>
-  				</a>
-          <button class="btn order-btn btn_hidden">Быстрый просмотр</button>
-  			</section>
-  		</aside>
+    			<li class="sweets-catalog__section">
+    				<a class="sweets-catalog__link sweets-catalog__link_hit"href="#">
+    					<img class="sweets-catalog__img" src="http://placehold.it/250x250" title = "ice-cream" alt="ice-cream">
+    				<p>Сливочное крем-брюле с карамельной подливкой</p>
+    				</a>
+            <button class="btn order-btn btn_hidden">Быстрый просмотр</button>
+    			</li>
+        </ul>
+  		</section>
 
-  		<aside class="features">
+  		<section class="features">
   			<span>Магазин Глейси - это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</span>
 
   			<section class="features-left">
@@ -124,7 +126,7 @@
 	  				<p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
 	  			</div>
 	  		</section>
-  		</aside>
+  		</section>
 
   		<section class="news">
   			<div class="news__blog">

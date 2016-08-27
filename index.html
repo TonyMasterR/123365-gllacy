@@ -37,38 +37,51 @@
 		      <div>С 10 до 20, ежедневно</div>
 		      <div>8 812 450-25-25</div>
 		    </div>
-				<div class="slider">
-		      <div class="slider__promo">
-		        <a href="#" class="slider__link-head">Крем-брюле и пломбир с малиновым джемом</a>
-		      </div>
-					<a href="#" class="btn order-btn">Давайте оба!</a>
-					<div class="slider__dots">
-						<form action="#">
-							<input class="slider__dot" type="radio" name="dot" value="slide1" checked>
-							<input class="slider__dot" type="radio" name="dot" value="slide2">
-							<input class="slider__dot" type="radio" name="dot" value="slide3">
-						</form>
-					</div>
-				</div>
 
   		</section>
   	</header>
 
 
   	<main class="container">
+      <div class="slider">
+        <div class="slider__inner">
+          <div class="slider__slides">
 
-  		<article class="actions">
-  			<section class="actions__section">
+            <div class="slider__slide-1">
+              <div class="slider__promo">
+                <a href="#" class="slider__link-head">Крем-брюле и пломбир с малиновым джемом</a>
+              </div>
+              <a href="#" class="btn order-btn">Давайте оба!</a>
+            </div>
+
+            <div class="slider__slide-2"></div>
+
+            <div class="slider__slide-3"></div>
+
+          </div class="slider__slides">
+        </div>
+          
+          <div class="slider__bullets">
+            <form action="#">
+              <input class="slider__bullet" type="radio" name="bullet" value="slide1" checked>
+              <input class="slider__bullet" type="radio" name="bullet" value="slide2">
+              <input class="slider__bullet" type="radio" name="bullet" value="slide3">
+            </form>
+          </div>
+
+      </div>
+  		<section class="actions">
+  			<article class="actions__article">
   				<h2 class="actions__head">Малинка даром!</h2>
   				<p class="actions__info">При покупке 2 кг любого фркутового мороженного, добавим в ваш заказ банку малинового варенья бесплатно.</p>
   				<a class="btn order-btn" href="#">Хочу варенье!</a>
-  			</section>
-  			<section class="actions__section">
+  			</article>
+  			<article class="actions__article">
   				<h2 class="actions__head">Шоколадки даром!</h2>
   				<p class="actions__info">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
   				<a class="btn order-btn" href="#">Хочу шоколадки!</a>
-  			</section>
-  		</article>
+  			</article>
+  		</section>
 
   		<section class="sweets-catalog">
         <ul class="sweets-catalog__list">
@@ -128,7 +141,7 @@
 	  		</section>
   		</section>
 
-  		<section class="news">
+  		<article class="news">
   			<div class="news__blog">
           <span>Новое в нашем блоге</span>
           <span>10 способов сервировки фруктовых щербетов к столу</span>
@@ -140,14 +153,14 @@
             <button class="btn order-btn" type="submit">Отправить</button>
           </form>
   			</div>
-  		</section>
+  		</article>
   	</main>
 
 
   	<footer class="page-footer">
 
-  		<aside class="page-footer__maps">
-  			<div class="page-footer__feedback">
+  		<section class="page-footer__maps">
+  			<article class="page-footer__feedback">
           <p>
             Адрес главного офиса и<br>
             офлайн магазина:<br>
@@ -164,11 +177,11 @@
             (с 10 до 20 ежедневно)
           </p>
             <button class="btn order-btn">Форма обратной связи</button>
-        </div>
-      </aside>
+        </article>
+      </section>
 
 
-  		<aside class="socials">
+  		<section class="socials">
   			<ul class="socials__list">
           <li class="socials__item">
             <a class="socials__link" href="#">Twitter</a>
@@ -184,7 +197,7 @@
           </li>
   			</ul>
 
-  			<section class="docs">
+  			<article class="docs">
   				<ul class="docs__list">
   					<li class="docs__item">
   						<a class="docs__link">Для поставщиков</a>
@@ -199,17 +212,17 @@
   						<a class="docs__link" href="#">Экологические стандарты</a>
   					</li>
   				</ul>
-  			</section>
+  			</article>
 
-  			<section class="copyrights">
+  			<article class="copyrights">
   				<div class="copyrights__logo">
   					<a class="copyrights__link" href="https://htmlacademy.ru/">
   						<img class="copyrights__img"src="http://placehold.it/60x30" alt="logo">
   					</a>
   				</div>
   				<span class="copyrights__sign">Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> &copy 2016</span>
-  			</section>
-  		</aside>
+  			</article>
+  		</section>
   	</footer>
 
 

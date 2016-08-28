@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+
+}
+
+/* ******** <--Header--> ******** */
+.page-header {
+
+}
+.page-header .main-nav {
+
+}
+.main-nav .main-nav__list {
+
+}
+.main-nav .main-nav__item {
+
+}
+.main-nav .main-nav__link {
+
+}
+
+
+.user-block {
+
+}
+.user-block .user-block__search {
+
+}
+.user-block .user-block__link {
+
+}
+.user-block .user-block__login {
+
+}
+.user-block .user-block__basket {
+
+}
+.page-header .operating-time {
+
+}
+/* ******** </--Header--> ******** */
+
+
+
+
+/* ******** <--Main--> ******** */
+  /* $$$$$$ <--Slider--> $$$$$$ */
+.slider {
+
+}
+.slider .slider__inner {
+
+}
+.slider .slider__slides {
+
+}
+.slider .slider__slide-1 {
+
+}
+.slider .slider__promo {
+
+}
+.slider .slider__link-head {
+
+}
+.slider .slider__slide-2 {
+
+}
+.slider .slider__slide-3 {
+
+}
+.slider .slider__bullets {
+
+}
+.slider .slider__bullet {
+
+}
+  /* $$$$$$ </--Slider--> $$$$$$ */
+
+
+
+.actions {
+
+}
+.actions .actions__article {
+
+}
+.actions .actions__head {
+
+}
+.actions .actions__info {
+
+}
+
+
+
+.sweets-catalog {
+
+}
+.sweets-catalog .sweets-catalog__list {
+
+}
+.sweets-catalog .sweets-catalog__section {
+
+}
+.sweets-catalog .sweets-catalog__link {
+
+}
+.sweets-catalog .sweets-catalog__hit {
+
+}
+.sweets-catalog .sweets-catalog__img {
+
+}
+.sweets-catalog .sweets-catalog__price {
+
+}
+
+
+
+
+.features {
+
+}
+.features-left {
+
+}
+.features__item {
+
+}
+.features-right {
+
+}
+
+
+
+.news .news {
+
+}
+.news .news__blog {
+
+}
+.news .news__subscribtion {
+
+}
+.news .news__conditions {
+
+}
+
+
+
+/* ******** </--Main--> ******** */
+
+
+
+
+
+
+/* ******** <--Footer--> ******** */
+
+.page-footer .page-footer {
+
+}
+.page-footer .page-footer__maps {
+
+}
+.page-footer .page-footer__feedback {
+
+}
+
+
+
+.socials .socials {
+
+}
+.socials .socials__list {
+
+}
+.socials .socials__item {
+
+}
+.socials .socials__link {
+
+}
+
+
+
+
+.docs {
+
+}
+.docs .docs__list {
+
+}
+.docs .docs__item {
+
+}
+.docs .docs__link {
+
+}
+
+
+
+
+.copyrights {
+
+}
+.copyrights .copyrights__logo {
+
+}
+.copyrights .copyrights__link {
+
+}
+.copyrights .copyrights__img {
+
+}
+.copyrights .copyrights__sign {
+
+}
+
+
+/* ******** </--Footer--> ******** */

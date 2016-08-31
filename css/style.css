@@ -2,7 +2,15 @@
   margin: 0;
   padding: 0;
 }
-
+.svg-logo {
+  fill: #fff;
+  fill-rule: evenodd;
+}
+.svg-social {
+  fill: #fff;
+  fill-rule: evenodd;
+  opacity: 0.8;
+}
 body {
   font-size: 16px;
   line-height: 22px;
@@ -33,7 +41,6 @@ h2 {
 .container {
 
 }
-
 /* ******** <--Header--> ******** */
 .page-header {
 
@@ -41,14 +48,19 @@ h2 {
 .page-header .main-nav {
 
 }
+.page-header__link-logo {
+}
 .main-nav .main-nav__list {
-
+  list-style: none;
+  font-size: 0;
 }
 .main-nav .main-nav__item {
-
+  display: inline-block;
 }
 .main-nav .main-nav__link {
-
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 

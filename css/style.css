@@ -142,15 +142,21 @@ h2 {
 
 }
 .sweets-catalog .sweets-catalog__list {
-
 }
 .sweets-catalog .sweets-catalog__item {
-
+  position: relative;
+}
+.sweets-catalog .sweets-catalog__item::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-image: url("../img/ХИТ.jpg");
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }
 .sweets-catalog .sweets-catalog__link {
-
-}
-.sweets-catalog .sweets-catalog__hit {
 
 }
 .sweets-catalog .sweets-catalog__img {

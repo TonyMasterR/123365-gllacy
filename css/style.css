@@ -60,14 +60,17 @@ h2 {
   cursor: pointer;
 }
 .container {
-
+  margin: 0 2.3%;
 }
 /* ******** <--Header--> ******** */
 .page-header {
 
 }
+.page-header .page-header__link-logo{
+  float: left;
+}
 .page-header .main-nav {
-
+  float: left;
 }
 .page-header__link-logo {
 }
@@ -77,31 +80,43 @@ h2 {
 }
 .main-nav .main-nav__item {
   display: inline-block;
+  vertical-align: top;
+  margin-right: 25px;
+}
+.main-nav .main-nav__item:last-child {
+  margin-right: 0;
 }
 .main-nav .main-nav__link {
   color: #fff;
   font-size: 16px;
   line-height: 18px;
+  text-decoration: none;
+  border-bottom: 1px solid #a0b4a9;
 }
 
 
 .user-block {
+  float: right;
 
+
+  font-size: 0;
 }
 .user-block .user-block__search {
-
+  display: inline-block;
+  vertical-align: top;
 }
 .user-block .user-block__link {
 
 }
 .user-block .user-block__login {
-
+  display: inline-block;
+  vertical-align: top;
 }
 .user-block .user-block__basket {
-
+  display: inline-block;
+  vertical-align: top;
 }
 .page-header .operating-time {
-
 }
 /* ******** </--Header--> ******** */
 
@@ -145,16 +160,34 @@ h2 {
 
 
 .actions {
-
+  margin-bottom: 40px;
+  font-size: 0;
+  text-align: center;
 }
 .actions .actions__article {
-
+  display: inline-block;
+  padding: 20px 15px;
+  width: 44.4%;
+  height: 189px;
+  text-align: left;
+  background-image: url("../img/Малиновый Фон.jpg");
+  border-radius: 10px;
+}
+.actions .actions__article:first-child {
+  margin-right: 2.2%;
 }
 .actions .actions__head {
-
+  margin-bottom: 15px;
 }
 .actions .actions__info {
-
+  margin-bottom: 45px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: bold;
+}
+.actions .actions__article .btn {
+  float: right;
 }
 
 
@@ -163,35 +196,73 @@ h2 {
 
 }
 .sweets-catalog .sweets-catalog__list {
+  /*position: relative;*/
+  font-size: 0;
+  text-align: center;
+
+
+
+  /*background-color: green;*/
 }
 .sweets-catalog .sweets-catalog__item {
+  display: inline-block;
   position: relative;
+  vertical-align: top;
+  margin-bottom: 35px;
+  margin-right: 2.2%;
+  width: 22.2%;
+  min-width: 140px;
+  text-align: center;
+
+
+  /*background-color: pink;*/
+}
+.sweets-catalog .sweets-catalog__item:last-child {
+  margin-right: 0;
 }
 .sweets-catalog .sweets-catalog__item::before {
   content: "";
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 61px;
+  height: 61px;
   position: absolute;
   background-image: url("../img/ХИТ.jpg");
   background-repeat: no-repeat;
   border-radius: 50%;
 }
 .sweets-catalog .sweets-catalog__link {
-
+  color: #fff;
+  text-decoration: none;
 }
 .sweets-catalog .sweets-catalog__img {
-
+  display: block;
+  width: 267px;
+  height: 267px;
+  margin: 0 auto 17px;
 }
 .sweets-catalog .sweets-catalog__price {
-
+  position: absolute;
+  left: 0;
+  top: 220px;
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(49, 50, 53, .5);
 }
-
+.sweets-catalog .sweets-catalog__item p > a {
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #9db1a5;
+}
 
 
 
 .features {
-
+  padding: 25px 15px;
+  background-image: url("../img/Вафля фон.jpg");
+  border-radius: 10px;
 }
 .features-left {
 
@@ -205,14 +276,29 @@ h2 {
 
 
 
-.news .news {
-
+.news {
+  font-size: 0;
+  text-align: center;
 }
 .news .news__blog {
+  margin-right: 2.2%;
+  width: 44.4%;
+  height: 220px;
+  display: inline-block;
+  vertical-align: top;
 
+
+  background-color: gold;
 }
 .news .news__subscribtion {
+  width: 44.4%;
+  height: 220px;
+  display: inline-block;
+  vertical-align: top;
 
+
+
+  background-color: darkcyan;
 }
 .news .news__conditions {
 
@@ -233,22 +319,57 @@ h2 {
 
 }
 .page-footer .page-footer__maps {
+  height: 430px;
 
+
+
+  background-color: yellow;
 }
 .page-footer .page-footer__feedback {
+  float: right;
+  width: 302px;
 
+
+
+
+
+  background-color: green;
 }
 
 
 
-.socials .socials {
 
+
+.page-footer__socials {
+  text-align: center;
+}
+
+
+
+
+.socials {
+  float: left;
+
+
+
+  background-color: gold;
 }
 .socials .socials__list {
-
+  list-style: none;
+  font-size: 0;
+  text-align: center;
 }
 .socials .socials__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
 
+
+
+  background-color: green;
+}
+.socials .socials__item:last-child {
+  margin-right: 0;
 }
 .socials .socials__link {
 
@@ -258,13 +379,17 @@ h2 {
 
 
 .docs {
+  display: inline-block;
 
+  width: 340px;
+  background-color: darkcyan;
 }
 .docs .docs__list {
-
+  list-style: none;
 }
 .docs .docs__item {
-
+  display: inline-block;
+  vertical-align: top;
 }
 .docs .docs__link {
 
@@ -274,7 +399,7 @@ h2 {
 
 
 .copyrights {
-
+  float: right;
 }
 .copyrights .copyrights__logo {
 

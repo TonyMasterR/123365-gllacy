@@ -6,10 +6,31 @@
   fill: #fff;
   fill-rule: evenodd;
 }
+.svg-logo_not-empty {
+  fill: #343434;
+  fill-rule: evenodd;
+}
+.svg-features {
+  fill: #323232;
+  fill-rule: evenodd;
+}
+.svg-login {
+  fill: #fff;
+  fill-opacity: 0.99;
+  fill-rule: evenodd;
+}
 .svg-social {
   fill: #fff;
   fill-rule: evenodd;
   opacity: 0.8;
+}
+.svg-heart {
+  fill: #f7f8f8;
+  stroke: #b2b2b2;
+  stroke-linejoin: round;
+  stroke-opacity: 0.52;
+  stroke-width: 1px;
+  fill-rule: evenodd;
 }
 body {
   font-size: 16px;

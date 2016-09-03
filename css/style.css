@@ -50,6 +50,7 @@ h2 {
   padding: 10px 20px;
   color: #fff;
   font-size: 18px;
+  font-weight: bold;
   text-decoration: none;
   text-shadow: 0 2px 5px rgba(160, 32, 11, 0.76);
   background-image: linear-gradient(90deg, #e74a35, #f26843);
@@ -102,8 +103,11 @@ h2 {
   font-size: 0;
 }
 .user-block .user-block__search {
+  width: 32px;
+  height: 32px;
   display: inline-block;
   vertical-align: top;
+  border-radius: 50%;
 }
 .user-block .user-block__link {
 
@@ -111,10 +115,12 @@ h2 {
 .user-block .user-block__login {
   display: inline-block;
   vertical-align: top;
+  border-radius: 10px;
 }
 .user-block .user-block__basket {
   display: inline-block;
   vertical-align: top;
+  border-radius: 10px;
 }
 .page-header .operating-time {
 }
@@ -169,6 +175,7 @@ h2 {
   padding: 20px 15px;
   width: 44.4%;
   height: 189px;
+  min-width: 267px;
   text-align: left;
   background-image: url("../img/Малиновый Фон.jpg");
   border-radius: 10px;
@@ -211,7 +218,7 @@ h2 {
   margin-bottom: 35px;
   margin-right: 2.2%;
   width: 22.2%;
-  min-width: 140px;
+  min-width: 267px;
   text-align: center;
 
 

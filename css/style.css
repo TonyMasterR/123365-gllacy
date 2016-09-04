@@ -177,7 +177,7 @@ h2 {
   height: 189px;
   min-width: 267px;
   text-align: left;
-  background-image: url("../img/Малиновый Фон.jpg");
+  background-image: url("../img/rapsberries.jpg");
   border-radius: 10px;
 }
 .actions .actions__article:first-child {
@@ -368,7 +368,7 @@ h2 {
 }
 .socials .socials__item {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: top;;
   margin-right: 10px;
 
 

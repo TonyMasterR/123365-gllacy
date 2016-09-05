@@ -243,18 +243,20 @@ h2 {
   text-align: center;
 }
 .actions .actions__article {
-  display: inline-block;
-  padding: 20px 15px;
+  /*display: inline-block;*/
+  padding: 15px 15px 20px;
   width: 44.4%;
-  height: 189px;
+  height: 205px;
   min-width: 267px;
   text-align: left;
   border-radius: 10px;
 }
 .actions .actions__article:first-child {
+  float: left;
   background-image: url("../img/rapsberries.jpg");
 }
 .actions .actions__article:last-child {
+  float: right;
   background-image: url("../img/chocolate.jpg");
 }
 .actions .actions__article:first-child {
@@ -293,13 +295,17 @@ h2 {
   position: relative;
   vertical-align: top;
   margin-bottom: 35px;
-  margin-right: 2.2%;
+  /*при 2.2% не влезает 4я мороженка при 1200px*/
+  margin-right: 1.8%;
   width: 22.2%;
   min-width: 267px;
   text-align: center;
 
 
   /*background-color: pink;*/
+}
+.sweets-catalog .sweets-catalog__item:nth-child(4n) {
+  margin-right: 0;
 }
 .sweets-catalog .sweets-catalog__item:last-child {
   margin-right: 0;
@@ -354,7 +360,7 @@ h2 {
   display: block;
   position: absolute;
   top: -10px;
-  left: 0px;
+  left: -55px;
   width: 47px;
   height: 47px;
 }
@@ -366,27 +372,29 @@ h2 {
 }
 .features__list {
   list-style: none;
-  display: inline-block;
+}
+.features-left .features__list {
+  padding-left: 55px;
 }
 .features-left {
-  position: relative;
-  display: inline-block;
+  float: left;
+  /*display: inline-block;*/
   vertical-align: top;
   margin-right: 2.2%;
-  padding-left: 55px;
   width: 44.4%;
 }
-.features-left svg:last-child {
-  top: 50px;
-}
 .features__item {
-  margin-bottom: 30px;
-}
-.features-right {
   position: relative;
   display: inline-block;
+  margin-bottom: 30px;
+}
+.features__list .features__item:last-child {
+  margin-bottom: 0;
+}
+.features-right {
+  float: right;
+  /*display: inline-block;*/
   vertical-align: top;
-  padding-left: 55px;
   width: 44.4%;
 }
 .features-right svg:last-child {
@@ -401,13 +409,12 @@ h2 {
   text-align: center;
 }
 .news .news__blog {
+  float: left;
   box-sizing: border-box;
   margin-right: 2.2%;
   padding: 25px 15px;
   width: 44.4%;
   height: 220px;
-  display: inline-block;
-  vertical-align: top;
   background-image: url("../img/strawberry.jpg");
   background-position: 5% 40%;
   border-radius: 10px;
@@ -429,14 +436,12 @@ h2 {
   text-decoration: underline;
 }
 .news .news__subscribtion-outer {
+  float: right;
   box-sizing: border-box;
-
   position: relative;
   padding: 6px;
   width: 44.4%;
   height: 220px;
-  display: inline-block;
-  vertical-align: top;
   background-image: url("../img/email-pattern.jpg");
   border-radius: 10px;
 }
@@ -447,8 +452,22 @@ h2 {
   text-align: left;
   background-color: #f8f7f4;
 }
+.news .news__subscribtion input {
+  float: right;
+  padding-left: 14px;
+  width: 60%;
+  height: 44px;
+  border: none;
+  outline: none;
+  border: 1px solid #d3d3d2;
+  border-radius: 5px;
+}
+.news .news__subscribtion button {
+  float: right;
+  margin-left: 10px;
+}
 .news .news__conditions {
-
+  margin-bottom: 40px;
 }
 
 
@@ -473,13 +492,14 @@ h2 {
 }
 .page-footer .page-footer__feedback {
   float: right;
-  width: 302px;
+  margin-top: 60px;
+  padding: 30px 25px;
+  background-color: #fdfefe;
+  border-radius: 10px;
+}
 
-
-
-
-
-  background-color: green;
+.page-footer__feedback p {
+  margin-bottom: 25px;
 }
 
 
@@ -495,7 +515,7 @@ h2 {
 
 .socials {
   float: left;
-
+  margin-bottom: 25px;
 
 
   /*background-color: gold;*/
@@ -508,6 +528,7 @@ h2 {
 .socials .socials__item {
   display: inline-block;
   vertical-align: top;;
+  margin-top: 20px;
   margin-right: 10px;
 
 
@@ -526,8 +547,7 @@ h2 {
 
 .docs {
   display: inline-block;
-
-  /*background-color: darkcyan;*/
+  margin-top: 10px;
 }
 .docs .docs__list {
   display: inline-block;

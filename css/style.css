@@ -349,6 +349,9 @@ h2 {
   background-repeat: no-repeat;
   border-radius: 50%;
 }
+.sweets-catalog .sweets-catalog__item_regular.sweets-catalog__item::before {
+  background: none;
+}
 .sweets-catalog .sweets-catalog__link {
   color: #fff;
   text-decoration: none;

@@ -237,6 +237,35 @@ h2 {
 
 
 
+.breadcrumbs {
+  font-size: 0;
+}
+.breadcrumbs__list {
+  list-style: none;
+}
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+.breadcrumbs__item:last-child {
+  margin-right: 0;
+}
+.breadcrumbs__link {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #aebeb5;
+}
+.breadcrumbs__link.breadcrumbs__link_current {
+  border: none;
+}
+
+
+
+
+
+
 .actions {
   margin-bottom: 40px;
   font-size: 0;
@@ -472,6 +501,45 @@ h2 {
 
 
 
+.pagination {
+  margin-bottom: 30px;
+  font-size: 0;
+}
+.pagination__prev {
+
+}
+.pagination__next {
+
+}
+.pagination__list {
+  list-style: none;
+  text-align: right;
+}
+.pagination__elem {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 50%;
+}
+.pagination__elem.pagination__elem_current {
+  background-color: #fff;
+}
+.pagination__elem.pagination__elem_current > .pagination__link {
+  color: #696969;
+}
+.pagination__link {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
 /* ******** </--Main--> ******** */
 
 
@@ -481,8 +549,9 @@ h2 {
 
 /* ******** <--Footer--> ******** */
 
-.page-footer .page-footer {
-
+.page-footer.page-footer_bordered {
+  padding-top: 20px;
+  border-top: 1px solid #a9bbb1;
 }
 .page-footer .page-footer__maps {
   margin-bottom: 20px;

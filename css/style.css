@@ -61,11 +61,11 @@ body {
 }
 
 .site-wrapper::before {
-  background-image: url("");
+  background-image: url("../img/ice-2.png");
 }
 
 .site-wrapper::after {
-  background-image: url("");
+  background-image: url("../img/ice-3.png");
 }
 
 
@@ -339,17 +339,17 @@ h2 {
 }
 #slide-btn1:checked ~ .site-wrapper {
   background-color: #849d8f;
-  background-image: url("");
+  background-image: url("../img/ice-1.png");
 }
 
 #slide-btn2:checked ~ .site-wrapper {
   background-color: #8996a6;
-  background-image: url("");
+  background-image: url("../img/ice-2.png");
 }
 
 #slide-btn3:checked ~ .site-wrapper {
   background-color: #9d8b84;
-  background-image: url("");
+  background-image: url("../img/ice-3.png");
 }
 
 
@@ -410,12 +410,13 @@ h2 {
 
 
 
-.actions {
+.promo {
   margin-bottom: 40px;
   font-size: 0;
   text-align: center;
 }
-.actions__article {
+.promo__article {
+  position: relative;
   padding: 15px 15px 20px;
   width: 44.4%;
   height: 205px;
@@ -423,29 +424,31 @@ h2 {
   text-align: left;
   border-radius: 10px;
 }
-.actions__article:first-child {
+.promo__article:first-child {
   float: left;
   background-image: url("../img/rapsberries.jpg");
 }
-.actions__article:last-child {
+.promo__article:last-child {
   float: right;
   background-image: url("../img/chocolate.jpg");
 }
-.actions__article:first-child {
+.promo__article:first-child {
   margin-right: 2.2%;
 }
-.actions__head {
+.promo__head {
   margin-bottom: 15px;
 }
-.actions__info {
-  margin-bottom: 45px;
+.promo__info {
   font-size: 18px;
   line-height: 22px;
   color: #fff;
   font-weight: bold;
 }
-.actions__article .btn {
-  float: right;
+.promo__article .btn {
+  /*float: right;*/
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
 }
 
 
@@ -468,6 +471,7 @@ h2 {
 }
 .sweets-catalog__item:hover {
   background-color: rgba(255,255,255, .2);
+  border-radius: 15px;
   box-shadow: 2px 5px 20px rgba(0,0,0, .4);
 }
 .sweets-catalog__item:hover .btn_hidden {
@@ -702,10 +706,10 @@ span.news__head {
 
 .page-footer__socials {
   text-align: center;
+  padding-bottom: 25px;
 }
 .socials {
   float: left;
-  margin-bottom: 25px;
 }
 .socials__list {
   list-style: none;

@@ -87,11 +87,12 @@
       <h2>Сливочное мороженное</h2>
       <fieldset class="filter__sort">
         <legend>Сортировка</legend>
-        <select name="" id="" class="filter__select">
-          <option value="" class="filter__option"></option>
-          <option value="" class="filter__option"></option>
-          <option value="" class="filter__option"></option>
-          <option value="" class="filter__option"></option></select>
+        <select name="sort" class="filter__select">
+          <option value="to-popular" class="filter__option">по популярности</option>
+          <option value="low-to-high" class="filter__option">сначала недорогие</option>
+          <option value="high-to-low" class="filter__option">сначала дорогие</option>
+          <option value="to-fat" class="filter__option">по жирности</option>
+        </select>
       </fieldset>
       <fieldset class="filter__price">
         <legend>Цена: 100 руб. - 500 руб.</legend>
@@ -100,27 +101,47 @@
       </fieldset>
       <fieldset class="filter__fat">
         <legend>Жирность:</legend>
-        <input type="radio" class="filter__radio" name="fat" value="1">
-        <span class="filter__label"></span>
-        <input type="radio" class="filter__radio" name="fat" value="2">
-        <span class="filter__label"></span>
-        <input type="radio" class="filter__radio" name="fat" value="3">
-        <span class="filter__label"></span>
-        <input type="radio" class="filter__radio" name="fat" value="4">
-        <span class="filter__label"></span>
+        <label>
+          <input type="radio" id="fat__controller1" class="filter__radio" name="fat" value="1">
+          <span class="filter__label">0%</span>
+        </label>
+        <label>
+          <input type="radio" id="fat__controller2" class="filter__radio" name="fat" value="2">
+          <span class="filter__label">до 10%</span>
+        </label>
+        <label>
+          <input type="radio" id="fat__controller3" class="filter__radio" name="fat" value="3">
+          <span class="filter__label">до 30%</span>
+        </label>
+        <label>
+          <input type="radio" id="fat__controller4" class="filter__radio" name="fat" value="4">
+          <span class="filter__label">выше 30%</span>
+        </label>
       </fieldset>
       <fieldset class="filter__contains">
         <legend>Наполнители:</legend>
-        <input type="checkbox" class="filter__checkbox" name="contains">
-        <span class="filter__label"></span>
-        <input type="checkbox" class="filter__checkbox" name="contains">
-        <span class="filter__label"></span>
-        <input type="checkbox" class="filter__checkbox" name="contains">
-        <span class="filter__label"></span>
-        <input type="checkbox" class="filter__checkbox" name="contains">
-        <span class="filter__label"></span>
-        <button class="filter__submit" type="submit">Применить</button>
+        <label>
+          <input type="checkbox" id="contain__controller1" class="filter__checkbox" name="contains">
+          <span class="filter__label">шоколадные</span>
+        </label>
+        <label>
+          <input type="checkbox" id="contain__controller2" class="filter__checkbox" name="contains">
+          <span class="filter__label">сахарные присыпки</span>
+        </label>
+        <label>
+          <input type="checkbox" id="contain__controller3" class="filter__checkbox" name="contains">
+          <span class="filter__label">фрукты</span>
+        </label>
+        <label>
+          <input type="checkbox" id="contain__controller4" class="filter__checkbox" name="contains">
+          <span class="filter__label">сиропы</span>
+        </label>
+        <label>
+          <input type="checkbox" id="contain__controller5" class="filter__checkbox" name="contains">
+          <span class="filter__label">джемы</span>
+        </label>
       </fieldset>
+      <button class="filter__submit" type="submit">Применить</button>
     </form>
     <section class="sweets-catalog">
       <ul class="sweets-catalog__list">
